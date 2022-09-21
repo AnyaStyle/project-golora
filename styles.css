@@ -2,3 +2,58 @@
     max-width: 1200px;
     margin: 0 auto;
 }
+
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 32px;
+}
+
+.static-container,
+.relative-container,
+.absolute-container{
+    border: 10px solid #000;
+    border-radius: 30px;
+    padding: 25px;
+    margin: 5px;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    border: 5px dashed #f55;
+    margin: 3px;
+    text-align: center;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.static{
+    background-color: #0000ff;
+    color: #fff;
+    position: static;
+}
+
+/*top,bottom,left and right*/
+.relative{
+    background-color: #ffc0cb;
+    position:relative;
+    /* left: 50px;
+    top: 50px; */
+    right: 10px;
+    bottom: 20px;
+}
+
+.absolute{
+    color: #fff;
+    background-color: #000;
+    position: absolute;
+    top: 50%;
+    /* right: 50px; */
+    left: 50%;
+}
+
+.absolute-container{
+    position: relative;
+}
