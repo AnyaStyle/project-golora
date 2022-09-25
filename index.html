@@ -5,39 +5,86 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>project golora</title>
-    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Golora</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="icon" href="/assets/images/favicon-32x32.png">
+    <script defer src="/test.js"></script>
+
 </head>
 
-<body>
-    <main class="container">
+<body style="background-color: #D8C690">
+    <header class="header">
+        <div class="header-row">
+            <a href="/index.html" class="headerlogo">GOLORA</a>
+            <button class="header__button" id="btnNav" type="buttonNav">
+                <img src="/assets/images/icons-menu-64.png" alt="menu">
+                <i class="material-icons">menu</i>
+            </button>
+            
 
-        <section class="relative-container">
-            <h2>relative positioning</h2>
-            <div class="box">a</div>
-            <div class="box relative">b</div>
-            <div class="box">c</div>
-            <div class="box">d</div>
-        </section>
+        </div>
 
-        <section class="static-container">
-            <h2>static positioning</h2>
-            <div class="box">a</div>
-            <div class="box static">b</div>
-            <div class="box">c</div>
-            <div class="box">d</div>
-        </section>
+        <nav class="nav">
+            <div class="nav__links">
+                <a class="nav__link" href="/index.html">
+                    <img src="/assets/images/home (1).png" alt="main">
+                    MAIN
+                </a>
+                <a class="nav__link nav__link--active" href="/drinks.html">
+                    <img src="/assets/images/wine-glass.png" alt="drinks">
+                    DRINKS
+                </a>
+                <a class="nav__link" href="/food.html">
+                    <img src="/assets/images/dinner (1).png" alt="food">
+                    FOOD
+                </a>
+            </div>
 
-        <section class="absolute-container">
-            <h2>absolute positioning</h2>
-            <div class="box">a</div>
-            <div class="box absolute">b</div>
-            <div class="box">c</div>
-            <div class="box">d</div>
-        </section>
+            <div class="nav__overlay"></div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="cell-row">
+            <div class="cell-container">
+                <h1 class="topic">DRINKS</h1>
+            </div>
+            <img src="/assets/images/drinks.jpg" style="width: 30%">
+            <div>
+                <button class="button">View menu</button>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    <div class="cell-row">
+        <div class="cell-container">
+            <h1 class="topic">FOOD</h1>
+        </div>
+        <img src="/assets/images/food.jpg" style="width: 30%">
+        <div>
+            <button class="button">View menu</button>
+        </div>
+    </div>
+
+    <footer>
+        <div>
+            <h5>3 King Road, Auckland, 1056</h5>
+            <h5>+64 09 345 67 68</h5>
+            <h5>info@golora.co.nz</h5>
+        </div>
+        <div>
+            <h3>Golora Ltd</h4>
+        </div>
+        <!-- <div class="footer" id="footer">
+            <h4>Footer</h4>
+        </div> -->
+
+    </footer>
 
 
-    </main>
+
+
 
 </body>
 
